@@ -1,0 +1,9 @@
+# Скомпільовані файли
+bus
+*.o
+*.out
+*.exe
+
+# Службові файли IDE та macOS
+.vscode/
+.DS_Store
