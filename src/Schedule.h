@@ -19,6 +19,10 @@ public:
     }
 
     void printAll() const {
+        if (buses.empty()) {
+            std::cout << "Розклад порожній" << std::endl;
+            return;
+        }
         for (const Bus& b : buses) print(b);
     }
 
